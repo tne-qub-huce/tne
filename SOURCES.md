@@ -6,7 +6,13 @@ Website chỉ sử dụng thông tin phù hợp để công khai. Hồ sơ độ
 - Dr Faris Elghaish — Queen’s University Belfast: https://pure.qub.ac.uk/en/persons/faris-elghaish/
 - TS Nguyễn Bảo Ngọc — Khoa Kinh tế và Quản lý Xây dựng, HUCE: https://kinhtexaydung.huce.edu.vn/ts-nguyen-bao-ngoc
 
-Các nguồn được truy cập để cập nhật repository ngày 17/06/2026. Khi chức danh hoặc hồ sơ chính thức thay đổi, ưu tiên cập nhật nội dung website theo các trang nguồn trên.
+Các nguồn được truy cập để cập nhật repository ngày 18/06/2026. Khi chức danh hoặc hồ sơ chính thức thay đổi, ưu tiên cập nhật nội dung website theo các trang nguồn trên.
+
+## Ảnh hồ sơ dùng trong website
+
+- Ảnh TS Tara Brooks: do người dùng cung cấp để đưa vào website.
+- Ảnh TS Faris Elghaish: do người dùng cung cấp để đưa vào website.
+- Ảnh TS Nguyễn Bảo Ngọc: do người dùng cung cấp để đưa vào website.
 
 ## Biểu mẫu góp ý chương trình
 
