@@ -58,3 +58,14 @@ Bản này bổ sung mục **Đội ngũ dự án và tập huấn**, gồm:
 - TS Nguyễn Bảo Ngọc — Điều phối dự án phía Việt Nam.
 
 Mỗi thẻ nhân sự có liên kết đến hồ sơ chính thức. Danh sách nguồn được lưu trong `SOURCES.md` để thuận tiện kiểm tra và cập nhật.
+
+## Biểu mẫu góp ý nội dung tập huấn
+
+Website đang sử dụng đường dẫn công khai:
+
+- `https://ntlink.co/nAI`
+- Đường dẫn rút gọn chuyển tới web app Google Apps Script do nhóm dự án quản lý.
+
+Lời mời góp ý được đặt ở bốn vị trí: nút chính trên phần mở đầu, module đồng thiết kế ngay sau phần mở đầu, lời nhắc sau bốn nội dung chuyên môn và nút nổi trên màn hình. Biểu mẫu này được ghi rõ là form góp ý nội dung, không phải form đăng ký tham dự.
+
+Khi cần đổi form, tìm và thay toàn bộ chuỗi `https://ntlink.co/nAI` trong `index.html`.

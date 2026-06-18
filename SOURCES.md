@@ -7,3 +7,8 @@ Website chỉ sử dụng thông tin phù hợp để công khai. Hồ sơ độ
 - TS Nguyễn Bảo Ngọc — Khoa Kinh tế và Quản lý Xây dựng, HUCE: https://kinhtexaydung.huce.edu.vn/ts-nguyen-bao-ngoc
 
 Các nguồn được truy cập để cập nhật repository ngày 17/06/2026. Khi chức danh hoặc hồ sơ chính thức thay đổi, ưu tiên cập nhật nội dung website theo các trang nguồn trên.
+
+## Biểu mẫu góp ý chương trình
+
+- Biểu mẫu trực tuyến (Google Apps Script, đường dẫn rút gọn công khai): https://ntlink.co/nAI
+- Mục đích hiển thị trên website: thu thập nhu cầu, mức độ ưu tiên, tình huống thực tế, cách học và rào cản tiếp cận để cải tiến nội dung tập huấn.
