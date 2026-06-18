@@ -1,10 +1,6 @@
-# Thay đổi trong bản v4 – Profiles, access support and feedback priority
+# Thay đổi trong bản v5 – Inclusive participation and certificate
 
-- Nhấn mạnh khóa tập huấn **dự kiến miễn phí**.
-- Nêu rõ định hướng **hạ rào cản tham gia** bằng hỗ trợ chi phí lưu trú cho học viên nữ ngoại tỉnh; chi tiết sẽ có trong thư mời học.
-- Tăng độ nổi bật của module góp ý và bổ sung thông điệp: **người gửi góp ý sẽ được ưu tiên xem xét khi tuyển học viên**.
-- Cập nhật thẻ hồ sơ với **ảnh chân dung** của TS Tara Brooks, TS Faris Elghaish và TS Nguyễn Bảo Ngọc.
-- Bổ sung nhắc lại rằng **TS Tara Brooks là giảng viên khóa BIM train-the-trainer đầu năm 2018** trong hợp tác trước đây với Việt Nam.
-- Điều chỉnh mô tả hướng chuyên môn của **TS Nguyễn Bảo Ngọc** theo yêu cầu biên tập, nhấn mạnh **các khía cạnh nhân văn trong ngành xây dựng**.
-- Đổi tiêu đề footer từ **“Liên hệ công khai”** thành **“Đầu mối phía Việt Nam”** và thêm liên kết **Facebook page của IICM**.
-- Gỡ 2 dòng ghi chú cuối phần hồ sơ và footer theo yêu cầu.
+- Làm rõ khóa tập huấn ưu tiên phụ nữ trong ngành xây dựng nhưng **vẫn chào đón nam giới và người thuộc các giới tính khác**.
+- Cập nhật mục **Đối tượng ưu tiên** trong phần thông tin sự kiện.
+- Cập nhật FAQ **“Sự kiện có dành riêng cho phụ nữ không?”** theo hướng bao trùm giới.
+- Bổ sung FAQ về **giấy chứng nhận**: dự kiến cấp cho học viên tham dự trọn vẹn và đạt yêu cầu của khóa tập huấn; điều kiện cụ thể sẽ có trong thư mời học.
