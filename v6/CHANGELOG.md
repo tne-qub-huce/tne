@@ -1,11 +1,3 @@
-# CHANGELOG
-
-## v7 — Team spotlight + optimized profile images
-
-- Thiết kế lại module **Project Team Members** thành section nổi bật nhưng gọn hơn: card glassmorphism nhẹ, phân nhóm rõ `QUB / UK` và `HUCE / IICM`, bỏ phần bio dài để trang sạch và dễ đọc.
-- Chuẩn hoá ảnh profile theo tỷ lệ 4:5, kích thước 384×480 px, nén JPEG progressive/optimized để ưu tiên tốc độ tải trang.
-- Giữ nguyên cấu trúc static để deploy trực tiếp lên GitHub Pages: upload toàn bộ file/thư mục trong gói này lên root repo.
-
 # Thay đổi trong bản v6 – Registration open, expanded team, futuristic redesign
 
 - **Thiết kế lại toàn bộ giao diện** theo phong cách futuristic hi-tech (nền deep navy, gradient cyan–violet, lưới kỹ thuật, hiệu ứng reveal khi cuộn), tối ưu cho cả desktop và mobile. Bộ CSS/JS được viết mới hoàn toàn.

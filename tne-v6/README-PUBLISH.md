@@ -1,11 +1,4 @@
-# Cách public website TNE v7
-
-
-## Bản v7 trong gói này
-
-- Đã làm lại module **Project Team Members** thành một điểm nhấn gọn, sạch, có phân nhóm `QUB / UK` và `HUCE / IICM`.
-- Đã thay ảnh profile bằng ảnh đính kèm, crop đồng bộ tỷ lệ 4:5 và nén xuống 384×480 px để load nhanh trên GitHub Pages.
-- Cấu trúc deploy giữ nguyên dạng static: `index.html` + `assets/` + `.nojekyll`, không cần build tool.
+# Cách public website TNE v6
 
 ## Khuyến nghị chính: GitHub Pages
 
