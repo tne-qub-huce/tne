@@ -1,5 +1,14 @@
 # CHANGELOG
 
+## 2026-07-11 — Motion / liquid-glass refresh
+
+- Chuyển giao diện sang motion-first, grayscale liquid-glass với full-screen video hero và responsive two-panel layout.
+- Cập nhật profile và từ khóa chuyên môn của TS Nguyễn Bảo Ngọc; thêm web-based profile.
+- Cập nhật profile và từ khóa chuyên môn của PGS.TS Nguyễn Thế Quân.
+- Bổ sung khối tri ân 12 bạn trẻ hỗ trợ công tác tổ chức.
+- Mở rộng FAQ với thời gian, địa điểm, thiết bị, kiến thức đầu vào, chi phí, ưu tiên học viên nữ, hỗ trợ lưu trú và hướng dẫn chia sẻ Giấy cam kết.
+- Nâng cấp motion reveal, mobile navigation và hero parallax có hỗ trợ `prefers-reduced-motion`.
+
 ## v7 — Team spotlight + optimized profile images
 
 - Thiết kế lại module **Project Team Members** thành section nổi bật nhưng gọn hơn: card glassmorphism nhẹ, phân nhóm rõ `QUB / UK` và `HUCE / IICM`, bỏ phần bio dài để trang sạch và dễ đọc.
@@ -23,3 +32,9 @@
 - Cập nhật mục Đối tượng ưu tiên trong phần thông tin sự kiện.
 - Cập nhật FAQ "Sự kiện có dành riêng cho phụ nữ không?" theo hướng bao trùm giới.
 - Bổ sung FAQ về giấy chứng nhận.
+
+
+## 2026-07-11 – Neon sci-fi visual update
+- Replaced the grayscale / monochrome motion theme with a colored sci-fi futuristic neon theme.
+- Added cyan / electric blue / violet / magenta glow accents across hero, navigation, cards, CTA buttons, and floating register button.
+- Removed grayscale treatment from hero media and team imagery to create a more vivid visual identity.
