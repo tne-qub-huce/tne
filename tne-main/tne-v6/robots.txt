@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://tne-qub-huce.github.io/tne/sitemap.xml
