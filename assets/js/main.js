@@ -33,7 +33,7 @@
   onScroll();
 
   var selector = [
-    '.section-heading', '.update-card', '.register-copy', '.register-panel',
+    '.section-heading', '.update-card',
     '.partner-strip > div', '.feature-card', '.team-group-title', '.team-card',
     '.team-gratitude', '.event-top', '.support-banner', '.event-main', '.event-side',
     '.schedule-grid article', '.module-card', '.topics-detail', '.modules-cta',
