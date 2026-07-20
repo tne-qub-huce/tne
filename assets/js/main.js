@@ -45,6 +45,64 @@
     el.style.transitionDelay = Math.min((i % 4) * 55, 165) + 'ms';
   });
 
+  // ---- HLS hero video ----
+  var heroVideo = document.querySelector('.hero-video[data-hls]');
+  if (heroVideo) {
+    var src = heroVideo.getAttribute('data-hls');
+    var tryPlay = function () {
+      var p = heroVideo.play();
+      if (p && p.catch) { p.catch(function () {}); }
+    };
+    if (heroVideo.canPlayType('application/vnd.apple.mpegurl')) {
+      // Native HLS (Safari / iOS)
+      heroVideo.src = src;
+      heroVideo.addEventListener('loadedmetadata', tryPlay);
+    } else if (window.Hls && window.Hls.isSupported()) {
+      var hls = new window.Hls({ enableWorker: false });
+      hls.loadSource(src);
+      hls.attachMedia(heroVideo);
+      hls.on(window.Hls.Events.MANIFEST_PARSED, tryPlay);
+    }
+  }
+
+  // ---- Countdown to 09:00 28/07/2026 Vietnam time (UTC+7) ----
+  var cdTarget = new Date('2026-07-28T09:00:00+07:00').getTime();
+  var cdEls = {
+    days: document.getElementById('cdDays'),
+    hours: document.getElementById('cdHours'),
+    mins: document.getElementById('cdMins'),
+    secs: document.getElementById('cdSecs')
+  };
+  var cdBar = document.getElementById('countdownBar');
+  function pad(n) { return (n < 10 ? '0' : '') + n; }
+  function tickCountdown() {
+    if (!cdEls.days) return;
+    var diff = cdTarget - Date.now();
+    if (diff <= 0) {
+      if (cdBar) cdBar.classList.add('is-live');
+      cdEls.days.textContent = '00';
+      cdEls.hours.textContent = '00';
+      cdEls.mins.textContent = '00';
+      cdEls.secs.textContent = '00';
+      var lbl = cdBar && cdBar.querySelector('.countdown-label');
+      if (lbl && !cdBar.dataset.live) {
+        cdBar.dataset.live = '1';
+        lbl.innerHTML = '<span aria-hidden="true" class="pulse-dot"></span>TNE AI 2026 đang diễn ra · 28–29/07/2026';
+      }
+      return;
+    }
+    var d = Math.floor(diff / 86400000);
+    var h = Math.floor((diff % 86400000) / 3600000);
+    var m = Math.floor((diff % 3600000) / 60000);
+    var s = Math.floor((diff % 60000) / 1000);
+    cdEls.days.textContent = pad(d);
+    cdEls.hours.textContent = pad(h);
+    cdEls.mins.textContent = pad(m);
+    cdEls.secs.textContent = pad(s);
+  }
+  tickCountdown();
+  setInterval(tickCountdown, 1000);
+
   if ('IntersectionObserver' in window && !reduced) {
     var io = new IntersectionObserver(function (entries) {
       entries.forEach(function (entry) {
